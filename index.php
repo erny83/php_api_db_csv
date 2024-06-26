@@ -6,11 +6,11 @@ require_once 'FtpUploader.php
 
 // Configurazione
 $baseUrl = 'https://api.example.com';
-$bearerToken = 'tuo_bearer_token';
-$codiceFiscale = 'codice_fiscale_della_persona';
+$bearerToken = 'bearer_token';
+$codiceFiscale = 'codice_fiscale';
 $ftpHost = 'ftp.example.com';
-$ftpUsername = 'tuo_ftp_username';
-$ftpPassword = 'tuo_ftp_password';
+$ftpUsername = 'ftp_username';
+$ftpPassword = 'ftp_password';
 
 // Creazione istanze
 $db = new Database();
